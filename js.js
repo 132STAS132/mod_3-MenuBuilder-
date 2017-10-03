@@ -34,6 +34,7 @@ function menuBuilder(menuArray, config) {
     });
 
     this.append(list);
+    return list;
 }
 
 $('body').menuBuilder(menu, config).addClass('completed');
