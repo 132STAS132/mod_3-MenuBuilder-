@@ -1,0 +1,17 @@
+.message-display {
+	list-style: none;
+}
+
+.someClassForHref {
+	border: 1px solid black;
+}
+
+.someClassForHref.currentHref {
+	border: 1px solid red;
+}
+
+.completed {
+	border: 3px dotted green;
+	width: 200px;
+}
+
